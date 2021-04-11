@@ -20,35 +20,35 @@
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
+                            <span class="sr-only">{{ __('messages.Previous') }}</span>
                         </a>
                         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
+                            <span class="sr-only">{{ __('messages.Next') }}</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-6 pt-5">
                     <div class="pt-4">
-                        <h4 class="product-details-border"><b>Description</b></h4>
+                        <h4 class="product-details-border"><b>{{ __('messages.Description') }}</b></h4>
                         <span>This is some description about the content.</span>
                     </div>
 
                     <div class="pt-5">
-                        <h4 class="product-details-border"><b>Nutrition Facts</b></h4>
+                        <h4 class="product-details-border"><b>{{ __('messages.Nutrition Facts') }}</b></h4>
                         <span>This is some description about the content.</span>
                     </div>
 
                     <div class="pt-5">
-                        <h4 class="product-details-border"><b>Ingredients</b></h4>
+                        <h4 class="product-details-border"><b>{{ __('messages.Ingredients') }}</b></h4>
                         <span>This is some description about the content.</span>
                     </div>
                 </div>
             </div>
 
             <div class="mt-5">
-                <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">RELATED PRODUCTS</h1>
+                <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">{{ __('messages.RELATED PRODUCTS') }}</h1>
 
                 <div class="row">
                     <div class="column nature" style="display : block">
