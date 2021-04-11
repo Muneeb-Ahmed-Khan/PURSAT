@@ -15,7 +15,7 @@ return [
     'To Get In Touch' => 'Связаться',
      'Your Name' => 'твое имя',
      'Your Email' => 'ваш адрес электронной почты',
-     'Your Phone Number' => 'ваш номер телефона',
+     'Your PhoneNumber' => 'ваш номер телефона',
      'Your Message' => 'Ваше сообщение',
      'CONTACT US' => 'СВЯЖИТЕСЬ С НАМИ',
      'Designed by' => 'Разработано',
