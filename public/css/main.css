@@ -1,0 +1,139 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f7f7f5;
+    font-family: sans-serif;
+}
+
+.my-content{
+    background: #e8e7e3;
+    border-radius: 4px;
+    margin: 3rem;
+}
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    text-decoration: underline;
+    font-size: 22px;
+
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+ 
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 14px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    /* background-color: white; */
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+
+.contact-form{
+    background-color: white;
+}
+
+.contact-image{
+    text-align: center
+}
+.contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate( 29deg );
+}
+
+.email-heading{
+    margin-top: -40px;
+    text-align: center;
+    color: #0062cc;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.card-img-top {
+    transition: .2s;
+}
+
+.product-details-border{
+    border-bottom: 1px solid;
+}
+/* On screens that are 500px wide or less */
+@media screen and (max-width: 700px) {
+    
+    .my-content{
+        margin: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .container-fluid{
+        padding: 0px !important;
+    }
+}
