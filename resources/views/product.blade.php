@@ -24,25 +24,45 @@
                         </a>
                         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">{{ __('messages.Next') }}</span>
+                            <span class="sr-only">{{ __('messages.Next') }}  </span>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-6 pt-5">
                     <div class="pt-4">
-                        <h4 class="product-details-border"><b>{{ __('messages.Description') }}</b></h4>
+                        <h4 class="product-details-border  mr- $spacer * 3" style =" border-bottom: 4px solid #FF0000" ><b>{{ __('messages.Description') }}</b></h4>
                         <span>This is some description about the content.</span>
                     </div>
 
                     <div class="pt-5">
-                        <h4 class="product-details-border"><b>{{ __('messages.Nutrition Facts') }}</b></h4>
-                        <span>This is some description about the content.</span>
+                        <h4 class="product-details-border"  style =" border-bottom: 4px solid #FF0000; padding-left: ($spacer * .25) "><b>{{ __('messages.Nutrition Facts') }}</b></h4>
+                        <span>{{ __('messages.Neutational Value per 100g of Product') }}</span>
+                        <div class="pt-4">
+                        <h5 class="product-details-border" style =" border-bottom: 4px solid #D3D3D3">{{ __('messages.Proteins(g)') }}
+                        <div class="pull-right">7.9</div>
+                        </h5>
+                        </div>
+                        <div class="pt-4">
+                        <h5 class="product-details-border" style =" border-bottom: 4px solid #D3D3D3">{{ __('messages.Fat(g)') }}
+                        <div class="pull-right">29.2</div>
+                        </h5>
+                        </div>
+                         <div class="pt-4">
+                        <h5 class="product-details-border" style =" border-bottom: 4px solid #D3D3D3">{{ __('messages.Carbohydrates(g)') }}
+                        <div class="pull-right">47.3</div>
+                        </h5>
+                        </div>
+                        <div class="pt-4">
+                        <h5 >{{ __('messages.Energy(kcol)') }}
+                        <div class="pull-right">4836</div></h5>
+                        </div>
                     </div>
 
                     <div class="pt-5">
-                        <h4 class="product-details-border"><b>{{ __('messages.Ingredients') }}</b></h4>
-                        <span>This is some description about the content.</span>
+                        <h4 class="product-details-border" style =" border-bottom: 4px solid #FF0000"><b>{{ __('messages.Ingredients') }}</b></h4>
+                        <span>{{ __('messages.Potato Vegitable Oil(Sun Flower ,Corn and /or Canola Oil),Cheddar Jalapeno Seasoning (Chaddar Cheese[Milk Cheese Cultures ,Salt ,Enzymes],Salt,Maltodextrin[Made from Corn], Natural Flavours, Onion powder ,Whey,Spices ,Sugar ,Yeast Extract ,Lactose ,Garlic Powder , Sunflower Oil Gum Arabic, Jalapeno Pepper ,Buttermilk, Corn Oil ,Corn Syrup  Solids, Skim Milk ,Sodium Caseinate ,Sour Cream [Cultured Cream ,Skim Milk ] Paprika Extracts ,Annatto Extracts , Butter [Cream ,Salts] and Blue Cheese [Milk ,Cheese Cultures ,Salts ,Enzymes]).CONTAINS MILK INGRADIENTS') }}</span>
+                        
                     </div>
                 </div>
             </div>
