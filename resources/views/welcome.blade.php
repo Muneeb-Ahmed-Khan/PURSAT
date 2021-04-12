@@ -161,7 +161,7 @@
             <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">{{ __('messages.ABOUT US') }}</h1>
 
             <div class="jumbotron container p-3 mb-4">
-                <p>{{ __('messages.PURSAT company was established in Turkmenistan in 2014. From its start, it established itself as the market leader in the production of roasting and packaging of sunflower seeds. For several years, our company has been bringing seeds of various flavors to the consumers of our country, having won the love and trust of consumers. In 2019, it was one of the first in Central Asia to start producing potato, corn, corn wheat, wheat corn and semi-finished pellets for snacks, and also carrying out the production of roasting and packaging chips from them') }}
+                <p>PURSAT {{ __('messages.company was established in Turkmenistan in 2014. From its start, it established itself as the market leader in the production of roasting and packaging of sunflower seeds. For several years, our company has been bringing seeds of various flavors to the consumers of our country, having won the love and trust of consumers. In 2019, it was one of the first in Central Asia to start producing potato, corn, corn wheat, wheat corn and semi-finished pellets for snacks, and also carrying out the production of roasting and packaging chips from them') }}
                 </p>
             </div>
 
