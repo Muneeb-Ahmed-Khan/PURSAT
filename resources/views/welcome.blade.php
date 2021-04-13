@@ -42,7 +42,7 @@
                 <br>
                 
                 <div class="row">
-                    <div class="column nature">
+                    <div class="column cornwhite">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips1.png') }}" alt="Mountains" style="width:100%">
@@ -51,7 +51,7 @@
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column nature">
+                    <div class="column cornwhite">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips2.png') }}" alt="Mountains" style="width:100%">
@@ -60,7 +60,7 @@
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column nature">
+                    <div class="column cornwhite">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips3.png') }}" alt="Mountains" style="width:100%">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     
-                    <div class="column cars">
+                    <div class="column cornwhite">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips4.jpg') }}" alt="Mountains" style="width:100%">
@@ -79,7 +79,7 @@
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column cars">
+                    <div class="column cornwhite">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips5.jpg') }}" alt="Mountains" style="width:100%">
@@ -88,7 +88,7 @@
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column cars">
+                    <div class="column cornwhite">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips6.jpg') }}" alt="Mountains" style="width:100%">
@@ -98,7 +98,7 @@
                         </div>
                     </div>
 
-                    <div class="column people">
+                    <div class="column potato">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips7.jpg') }}" alt="Mountains" style="width:100%">
@@ -107,7 +107,7 @@
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column people">
+                    <div class="column potato">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips8.jpg') }}" alt="Mountains" style="width:100%">
@@ -116,7 +116,7 @@
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column people">
+                    <div class="column wheatcorn">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips9.jpg') }}" alt="Mountains" style="width:100%">
@@ -125,7 +125,7 @@
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column people">
+                    <div class="column wheatcorn">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips10.jpg') }}" alt="Mountains" style="width:100%">
@@ -134,16 +134,16 @@
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column people">
+                    <div class="column sunflower">
                         <div class="content">
                             <a href="/product/name">
-                                <img class="card-img-top" src="{{ asset('images/chips1.png') }}" alt="Mountains" style="width:100%">
+                                <img class="card-img-top" src="{{ asset('images/chips11.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
                             <span>Text description of the chips.</span>
                         </div>
                     </div>
-                    <div class="column people">
+                    <div class="column sunflower">
                         <div class="content">
                             <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips12.jpg') }}" alt="Mountains" style="width:100%">

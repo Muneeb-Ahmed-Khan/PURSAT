@@ -59,6 +59,15 @@
                         </div>
                     </div>
 
+                    <div class="d-flex justify-content-between mt-4 mb-4 p-2">
+                        <div>
+                        <img src="{{ asset('images/stamp1.jpeg') }}" alt="" width="150px"/>
+                        </div>
+                        <div>
+                            <img src="{{ asset('images/stamp2.jpeg') }}" alt=""  width="150px"/>
+                        </div>
+                    </div>
+
                     <div class="pt-5">
                         <h4 class="product-details-border" style =" border-bottom: 4px solid #FF0000"><b>{{ __('messages.Ingredients') }}</b></h4>
                         <span>{{ __('messages.Potato Vegitable Oil(Sun Flower ,Corn and /or Canola Oil),Cheddar Jalapeno Seasoning (Chaddar Cheese[Milk Cheese Cultures ,Salt ,Enzymes],Salt,Maltodextrin[Made from Corn], Natural Flavours, Onion powder ,Whey,Spices ,Sugar ,Yeast Extract ,Lactose ,Garlic Powder , Sunflower Oil Gum Arabic, Jalapeno Pepper ,Buttermilk, Corn Oil ,Corn Syrup  Solids, Skim Milk ,Sodium Caseinate ,Sour Cream [Cultured Cream ,Skim Milk ] Paprika Extracts ,Annatto Extracts , Butter [Cream ,Salts] and Blue Cheese [Milk ,Cheese Cultures ,Salts ,Enzymes]).CONTAINS MILK INGRADIENTS') }}</span>
