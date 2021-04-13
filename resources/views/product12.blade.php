@@ -9,10 +9,10 @@
                     <div id="carouselExampleControls" class="carousel slide my-content" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="card-img-top" class="d-block w-100" src="{{ asset('images/Untitled8-.jpg') }}" alt="First slide">
+                                <img class="card-img-top" class="d-block w-100" src="{{ asset('images/Untitled12-.jpg') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="card-img-top" class="d-block w-100" src="{{ asset('images/Untitled8-2.jpg') }}" alt="Second slide">
+                                <img class="card-img-top" class="d-block w-100" src="{{ asset('images/Untitled12-2.jpg') }}" alt="Second slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -29,7 +29,7 @@
                 <div class="col-md-6 pt-5">
                     <div class="pt-4">
                         <h4 class="product-details-border  mr- $spacer * 3" style =" border-bottom: 4px solid #FF0000" ><b>{{ __('messages.description') }}</b></h4>
-                        <span>{{ __('messages.p8.description') }}</span>
+                        <span>{{ __('messages.p12.description') }}</span>
                     </div>
 
                     <div class="pt-5">
@@ -67,7 +67,7 @@
 
                     <div class="pt-5">
                         <h4 class="product-details-border" style =" border-bottom: 4px solid #FF0000"><b>{{ __('messages.ingredients_header') }}</b></h4>
-                        <span>{{ __('messages.p8.ingredients') }}</span>
+                        <span>{{ __('messages.p12.ingredients') }}</span>
                         
                     </div>
                 </div>

@@ -31,13 +31,13 @@
                     <div class="collapse navbar-collapse mr-4" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item pl-3">
-                                <a class="nav-link active"  href="#products"><b>{{ __('messages.PRODUCTS') }}</b></a>
+                                <a class="nav-link active"  href="#products"><b>{{ __('messages.products') }}</b></a>
                             </li>
                             <li class="nav-item pl-3 ">
-                                <a class="nav-link active" href="#about"><b>{{ __('messages.ABOUT') }}</b></a>
+                                <a class="nav-link active" href="#about"><b>{{ __('messages.about') }}</b></a>
                             </li>
                             <li class="nav-item pl-3 ">
-                                <a class="nav-link active" href="#contact"><b>{{ __('messages.CONTACT') }}</b></a>
+                                <a class="nav-link active" href="#contact"><b>{{ __('messages.contact') }}</b></a>
                             </li>
 
                             <li class="nav-item pl-3 ">
@@ -59,7 +59,7 @@
         <section id="footer" class="container-fluid">
             <div class="my-content pb-2" style=" padding-top: 36px; background-color: #2d2d2d; color: #ffffff; font-size: smaller; color: lightgray; border-radius: 0px ">
                 <p style=" padding: 10px; margin: 0 auto; text-align: center; border-top: 1.5px solid #fbac2e; width: 80%; ">
-                        © 2021 PURSAT - {{ __('messages.Designed by') }}<a href="https://galvonix.com" target="_blank">GALVONIX</a>
+                        © 2021 PURSAT - {{ __('messages.designed_by') }} <a href="https://galvonix.com" target="_blank">GALVONIX</a>
                 </p>
             </div>
         </section>
@@ -69,9 +69,9 @@
   
   var url = "{{ route('changeLang') }}";
 
-  $(".changeLang").change(function(){
-      window.location.href = url + "?lang="+ $(this).val();
-  });
+    $(".changeLang").change(function(){
+        window.location.href = url + "?lang="+ $(this).val();
+    });
 
 </script>
 </html>

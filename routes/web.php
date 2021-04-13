@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\LangController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContactForm;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,48 +13,61 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::post("/contactform", [ContactForm::class, 'create'])->name('contactform.store');
+
 Route::get('/', [LangController::class, 'index']);
-Route::get('/chips1/{name}', function () {
-     return view('product');
-});
-Route::get('/chips2/{name}', function () {
+
+Route::get('/chips 1', function () {
      return view('product1');
-});
-Route::get('/chips3/{name}', function () {
+})->name('chips1');
+
+Route::get('/chips 2', function () {
      return view('product2');
-});
-Route::get('/chips4/{name}', function () {
+})->name('chips2');
+
+Route::get('/chips 3', function () {
      return view('product3');
-});
-Route::get('/chips5/{name}', function () {
+})->name('chips3');
+
+Route::get('/chips 4', function () {
      return view('product4');
-});
-Route::get('/chips6/{name}', function () {
+})->name('chips4');
+
+Route::get('/chips 5', function () {
      return view('product5');
-});
-Route::get('/chips7/{name}', function () {
+})->name('chips5');
+
+Route::get('/chips 5', function () {
+     return view('product5');
+})->name('chips5');
+
+Route::get('/chips 6', function () {
      return view('product6');
-});
-Route::get('/chips8/{name}', function () {
+})->name('chips6');
+
+Route::get('/chips 7', function () {
      return view('product7');
-});
-Route::get('/chips9/{name}', function () {
+})->name('chips7');
+
+Route::get('/chips 8', function () {
      return view('product8');
-});
-Route::get('/chips10/{name}', function () {
+})->name('chips8');
+
+Route::get('/chips 9', function () {
      return view('product9');
-});
-Route::get('/chips11/{name}', function () {
+})->name('chips9');
+
+Route::get('/chips 10', function () {
      return view('product10');
-});
-Route::get('/chips12/{name}', function () {
+})->name('chips10');
+
+Route::get('/chips 11', function () {
      return view('product11');
-});
+})->name('chips11');
 
-
-
-
-
+Route::get('/chips 12', function () {
+     return view('product12');
+})->name('chips12');
 
 Route::get('lang/home', [LangController::class, 'index']);
 Route::get('lang/change', [LangController::class, 'change'])->name('changeLang');
