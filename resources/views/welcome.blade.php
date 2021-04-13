@@ -27,16 +27,16 @@
 
 
         <div id="products" class="my-content">
-            <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">{{ __('messages.OUR PRODUCTS') }}</h1>
+            <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">OUR PRODUCTS</h1>
 
             <div class="row">
 
                 <div class="m-auto pl-3 pr-3 pb-2 text-center">
-                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('all')">{{ __('messages.ALL') }}</a>
-                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('cornwhite')">{{ __('messages.CORN WHITE CHIPS') }}</a>
-                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('potato')">{{ __('messages.PATATO CHIPS') }}</a>
-                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('wheatcorn')">{{ __('messages.WHEAT CORN SNACKS') }}</a>
-                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('sunflower')">{{ __('messages.CORN WHITE CHIPS') }}</a>
+                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('all')">ALL</a>
+                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('cornwhite')">CORN WHITE CHIPS</a>
+                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('potato')">PATATO CHIPS</a>
+                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('wheatcorn')">WHEAT CORN SNACKS</a>
+                    <a type="button" class="btn btn-default filter-button" onclick="filterSelection('sunflower')">SUNFLOWER SEEDS</a>
                 </div>
 
                 <br>
@@ -44,7 +44,7 @@
                 <div class="row">
                     <div class="column nature">
                         <div class="content">
-                            <a href="/chips1/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips1.png') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -53,8 +53,7 @@
                     </div>
                     <div class="column nature">
                         <div class="content">
-                        <a href="/chips2/name">
-
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips2.png') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -63,7 +62,7 @@
                     </div>
                     <div class="column nature">
                         <div class="content">
-                        <a href="/chips3/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips3.png') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -73,7 +72,7 @@
                     
                     <div class="column cars">
                         <div class="content">
-                        <a href="/chips4/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips4.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -82,7 +81,7 @@
                     </div>
                     <div class="column cars">
                         <div class="content">
-                        <a href="/chips5/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips5.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -91,7 +90,7 @@
                     </div>
                     <div class="column cars">
                         <div class="content">
-                        <a href="/chips6/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips6.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -101,7 +100,7 @@
 
                     <div class="column people">
                         <div class="content">
-                        <a href="/chips7/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips7.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -110,7 +109,7 @@
                     </div>
                     <div class="column people">
                         <div class="content">
-                        <a href="/chips8/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips8.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -119,7 +118,7 @@
                     </div>
                     <div class="column people">
                         <div class="content">
-                        <a href="/chips9/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips9.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -128,7 +127,7 @@
                     </div>
                     <div class="column people">
                         <div class="content">
-                        <a href="/chips10/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips10.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -137,7 +136,7 @@
                     </div>
                     <div class="column people">
                         <div class="content">
-                        <a href="/chips11/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips1.png') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -146,7 +145,7 @@
                     </div>
                     <div class="column people">
                         <div class="content">
-                        <a href="/chips12/name">
+                            <a href="/product/name">
                                 <img class="card-img-top" src="{{ asset('images/chips12.jpg') }}" alt="Mountains" style="width:100%">
                             </a>
                             <h6 class="text-strong mb-1"><b> Chips Name </b></h6>
@@ -159,10 +158,12 @@
 
 
         <div id="about" class="my-content  pb-4">
-            <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">{{ __('messages.ABOUT US') }}</h1>
+            <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">ABOUT US</h1>
 
             <div class="jumbotron container p-3 mb-4">
-                <p>PURSAT {{ __('messages.company was established in Turkmenistan in 2014. From its start, it established itself as the market leader in the production of roasting and packaging of sunflower seeds. For several years, our company has been bringing seeds of various flavors to the consumers of our country, having won the love and trust of consumers. In 2019, it was one of the first in Central Asia to start producing potato, corn, corn wheat, wheat corn and semi-finished pellets for snacks, and also carrying out the production of roasting and packaging chips from them') }}
+                <p>PURSAT company was established in Turkmenistan in 2014. From its start, it established itself as the market leader in the production of roasting and packaging of sunflower seeds.
+                For several years, our company has been bringing seeds of various flavors to the consumers of our country, having won the love and trust of consumers.
+                In 2019, it was one of the first in Central Asia to start producing potato, corn, corn wheat, wheat corn and semi-finished pellets for snacks, and also carrying out the production of roasting and packaging chips from them.
                 </p>
             </div>
 
@@ -171,28 +172,28 @@
                     <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact">
                 </div>
                 <form class="p-5" method="post" action="send_email.php">
-                    <h3 class="email-heading">{{ __('messages.To Get In Touch') }}</h3>
+                    <h3 class="email-heading">To Get In Touch</h3>
                     
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" name="txtName" class="form-control" placeholder="{{ __('messages.Your Name') }} *" value="">
+                                <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="txtEmail" class="form-control" placeholder="{{ __('messages.Your Email') }}*" value="">
+                                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="txtPhone" class="form-control" placeholder="{{ __('messages.Your PhoneNumber') }} *" value="">
+                                <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <textarea name="txtMsg" class="form-control" placeholder="{{ __('messages.Your Message') }}*" style="width: 100%; height: 142px; margin-top: 0px; margin-bottom: 0px;"></textarea>
+                                <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 142px; margin-top: 0px; margin-bottom: 0px;"></textarea>
                             </div>
                         </div>
                         <br>
                         <div class="col-md-12 form-group">
-                            <input type="submit" name="btnSubmit" class="btn btn-danger" value="{{ __('messages.Send Message') }}">
+                            <input type="submit" name="btnSubmit" class="btn btn-danger" value="Send Message">
                         </div>
                     </div>
                 </form>
@@ -201,7 +202,7 @@
 
 
         <div id="contact" class="my-content pb-4">
-            <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">{{ __('messages.CONTACT US') }}</h1>
+            <h1 class="text-center pt-5 pb-3" style="font-weight: bold; font-size: 40px; color: black; ">CONTACT US</h1>
 
             <div class="row p-5 pb-2">
                 <div class="col-lg-4">
