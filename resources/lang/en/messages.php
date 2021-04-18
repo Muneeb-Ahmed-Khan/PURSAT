@@ -48,8 +48,8 @@ return [
     
     //Products
     'p1' => [
-        'name' => "Chips 1",
-        'short_description' => "Some short description about the product",
+        'name' => "Apple juice",
+        'short_description' => "This is cool",
         'description' => "Full long description about the product",
         'ingredients' => "This is the ingredients text."
     ],

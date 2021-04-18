@@ -49,7 +49,7 @@ return [
     
     //Products
     'p1' => [
-        'name' => "Chips 1",
+        'name' => "Apple juice",
         'short_description' => "Some short description about the product",
         'description' => "Full long description about the product",
         'ingredients' => "This is the ingredients text."

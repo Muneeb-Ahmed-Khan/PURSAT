@@ -31,7 +31,7 @@
                     <div class="collapse navbar-collapse mr-4" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item pl-3">
-                                <a class="nav-link active"  href="#products"><b>{{ __('messages.products') }}</b></a>
+                                <a class="nav-link active"  href="/#products"><b>{{ __('messages.products') }}</b></a>
                             </li>
                             <li class="nav-item pl-3 ">
                                 <a class="nav-link active" href="#about"><b>{{ __('messages.about') }}</b></a>
@@ -42,9 +42,9 @@
 
                             <li class="nav-item pl-3 ">
                                 <select class="form-control changeLang" >
-                                <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
-                                <option value="tr" {{ session()->get('locale') == 'tr' ? 'selected' : '' }}>Turkish</option>
-                                <option value="rs" {{ session()->get('locale') == 'rs' ? 'selected' : '' }}>Russian</option>
+                                    <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
+                                    <option value="tr" {{ session()->get('locale') == 'tr' ? 'selected' : '' }}>Turkmen</option>
+                                    <option value="rs" {{ session()->get('locale') == 'rs' ? 'selected' : '' }}>Russian</option>
                                 </select>
                             </li>
                             
@@ -55,6 +55,7 @@
         </section>
 
         @yield('content')
+
 
         <section id="footer" class="container-fluid">
             <div class="my-content pb-2" style=" padding-top: 36px; background-color: #2d2d2d; color: #ffffff; font-size: smaller; color: lightgray; border-radius: 0px ">

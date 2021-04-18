@@ -4,16 +4,20 @@
 <section id="body">
     <div class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide my-content" data-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner" style=" max-height: 600px; ">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_178b312c0de%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_178b312c0de%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22217.7609375%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="First slide">
+                    <img class="d-block w-100" src="{{ asset('images/001.jpg') }}" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_178b312c0de%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_178b312c0de%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22217.7609375%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
+                    <img class="d-block w-100" src="{{ asset('images/002.jpg') }}" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_178b312c0de%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_178b312c0de%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22217.7609375%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
+                    <iframe width="100%" height="600" src="https://www.youtube.com/embed/om3EaInTW5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="{{ asset('images/004.jpg') }}" alt="Third slide">
+                </div>
+                
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -45,7 +49,7 @@
                     <div class="column cornwhite">
                         <div class="content">
                             <a href="{{ route('chips1') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips1.png') }}" alt="Mountains" style="width:100%">
+                                <img class="card-img-top all-products" src="{{ asset('images/chips1.png') }}" alt="Chips">
                             </a>
                             <h6 class="text-strong mb-1"><b> {{ __('messages.p1.name') }} </b></h6>
                             <span>{{ __('messages.p1.short_description') }}.</span>
@@ -54,7 +58,7 @@
                     <div class="column cornwhite">
                         <div class="content">
                             <a href="{{ route('chips2') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips2.png') }}" alt="Mountains" style="width:100%">
+                                <img class="card-img-top all-products" src="{{ asset('images/chips2.png') }}" alt="Chips">
                             </a>
                             <h6 class="text-strong mb-1"><b> {{ __('messages.p2.name') }} </b></h6>
                             <span>{{ __('messages.p2.short_description') }}.</span>
@@ -63,7 +67,7 @@
                     <div class="column cornwhite">
                         <div class="content">
                             <a href="{{ route('chips3') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips3.png') }}" alt="Mountains" style="width:100%">
+                                <img class="card-img-top all-products" src="{{ asset('images/chips3.png') }}" alt="Chips">
                             </a>
                             <h6 class="text-strong mb-1"><b> {{ __('messages.p3.name') }} </b></h6>
                             <span>{{ __('messages.p3.short_description') }}.</span>
@@ -73,7 +77,7 @@
                     <div class="column cornwhite">
                         <div class="content">
                             <a href="{{ route('chips4') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips4.jpg') }}" alt="Mountains" style="width:100%">
+                                <img class="card-img-top all-products" src="{{ asset('images/chips4.jpg') }}" alt="Chips">
                             </a>
                             <h6 class="text-strong mb-1"><b> {{ __('messages.p4.name') }} </b></h6>
                             <span>{{ __('messages.p4.short_description') }}.</span>
@@ -82,7 +86,7 @@
                     <div class="column cornwhite">
                         <div class="content">
                             <a href="{{ route('chips5') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips5.jpg') }}" alt="Mountains" style="width:100%">
+                                <img class="card-img-top all-products" src="{{ asset('images/chips5.jpg') }}" alt="Chips">
                             </a>
                             <h6 class="text-strong mb-1"><b> {{ __('messages.p5.name') }} </b></h6>
                             <span>{{ __('messages.p5.short_description') }}.</span>
@@ -91,68 +95,99 @@
                     <div class="column cornwhite">
                         <div class="content">
                             <a href="{{ route('chips6') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips6.jpg') }}" alt="Mountains" style="width:100%">
+                                <img class="card-img-top all-products" src="{{ asset('images/chips6.jpg') }}" alt="Chips">
                             </a>
                             <h6 class="text-strong mb-1"><b> {{ __('messages.p6.name') }} </b></h6>
                             <span>{{ __('messages.p6.short_description') }}.</span>
                         </div>
                     </div>
+                </div>
+                
+                <div class="w-100 column potato">
+                    <h3 class="pl-4 mb-0 mt-3"><u>PTOATO CHIPS</u></h3>
+                    <div class="row pt-0">
+                        <div class="column potato pt-0">
+                            <div class="content">
+                                <a href="{{ route('chips7') }}">
+                                    <img class="card-img-top all-products" src="{{ asset('images/chips7.jpg') }}" alt="Chips">
+                                </a>
+                                <h6 class="text-strong mb-1"><b> {{ __('messages.p7.name') }} </b></h6>
+                                <span>{{ __('messages.p7.short_description') }}.</span>
+                            </div>
+                        </div>
+                        <div class="column potato pt-0">
+                            <div class="content">
+                                <a href="{{ route('chips8') }}">
+                                    <img class="card-img-top all-products" src="{{ asset('images/chips8.jpg') }}" alt="Chips">
+                                </a>
+                                <h6 class="text-strong mb-1"><b> {{ __('messages.p8.name') }} </b></h6>
+                                <span>{{ __('messages.p8.short_description') }}.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="column potato">
-                        <div class="content">
-                            <a href="{{ route('chips7') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips7.jpg') }}" alt="Mountains" style="width:100%">
-                            </a>
-                            <h6 class="text-strong mb-1"><b> {{ __('messages.p7.name') }} </b></h6>
-                            <span>{{ __('messages.p7.short_description') }}.</span>
+
+                <br>
+                <div class="w-100 column wheatcorn">
+                    <h3 class="pl-4 mb-0 mt-3"><u>WHEAT CORN SNACKS</u></h3>
+                    <div class="row pt-0">
+                        <div class="column wheatcorn pt-0">
+                            <div class="content">
+                                <a href="{{ route('chips9') }}">
+                                    <img class="card-img-top all-products" src="{{ asset('images/chips9.jpg') }}" alt="Chips">
+                                </a>
+                                <h6 class="text-strong mb-1"><b> {{ __('messages.p9.name') }} </b></h6>
+                                <span>{{ __('messages.p9.short_description') }}.</span>
+                            </div>
+                        </div>
+                        <div class="column wheatcorn pt-0">
+                            <div class="content">
+                                <a href="{{ route('chips10') }}">
+                                    <img class="card-img-top all-products" src="{{ asset('images/chips10.jpg') }}" alt="Chips">
+                                </a>
+                                <h6 class="text-strong mb-1"><b> {{ __('messages.p10.name') }} </b></h6>
+                                <span>{{ __('messages.p10.short_description') }}.</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="column potato">
-                        <div class="content">
-                            <a href="{{ route('chips8') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips8.jpg') }}" alt="Mountains" style="width:100%">
-                            </a>
-                            <h6 class="text-strong mb-1"><b> {{ __('messages.p8.name') }} </b></h6>
-                            <span>{{ __('messages.p8.short_description') }}.</span>
+                </div>
+
+
+
+                <div class="w-100 column sunflower">
+                    <h3 class="pl-4 mb-0 mt-3"><u>SUNFLOWER SEEDS</u></h3>
+                    <div class="row pt-0">
+                        <div class="column sunflower pt-0">
+                            <div class="content">
+                                <a href="{{ route('chips11') }}">
+                                    <img class="card-img-top all-products" src="{{ asset('images/chips11.jpg') }}" alt="Chips">
+                                </a>
+                                <h6 class="text-strong mb-1"><b> {{ __('messages.p11.name') }} </b></h6>
+                                <span>{{ __('messages.p11.short_description') }}.</span>
+                            </div>
+                        </div>
+                        <div class="column sunflower pt-0">
+                            <div class="content">
+                                <a href="{{ route('chips12') }}">
+                                    <img class="card-img-top all-products" src="{{ asset('images/chips12.jpg') }}" alt="Chips">
+                                </a>
+                                <h6 class="text-strong mb-1"><b> {{ __('messages.p12.name') }} </b></h6>
+                                <span>{{ __('messages.p12.short_description') }}.</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="column wheatcorn">
-                        <div class="content">
-                            <a href="{{ route('chips9') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips9.jpg') }}" alt="Mountains" style="width:100%">
-                            </a>
-                            <h6 class="text-strong mb-1"><b> {{ __('messages.p9.name') }} </b></h6>
-                            <span>{{ __('messages.p9.short_description') }}.</span>
-                        </div>
-                    </div>
-                    <div class="column wheatcorn">
-                        <div class="content">
-                            <a href="{{ route('chips10') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips10.jpg') }}" alt="Mountains" style="width:100%">
-                            </a>
-                            <h6 class="text-strong mb-1"><b> {{ __('messages.p10.name') }} </b></h6>
-                            <span>{{ __('messages.p10.short_description') }}.</span>
-                        </div>
-                    </div>
-                    <div class="column sunflower">
-                        <div class="content">
-                            <a href="{{ route('chips11') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips11.jpg') }}" alt="Mountains" style="width:100%">
-                            </a>
-                            <h6 class="text-strong mb-1"><b> {{ __('messages.p11.name') }} </b></h6>
-                            <span>{{ __('messages.p11.short_description') }}.</span>
-                        </div>
-                    </div>
-                    <div class="column sunflower">
-                        <div class="content">
-                            <a href="{{ route('chips12') }}">
-                                <img class="card-img-top" src="{{ asset('images/chips12.jpg') }}" alt="Mountains" style="width:100%">
-                            </a>
-                            <h6 class="text-strong mb-1"><b> {{ __('messages.p12.name') }} </b></h6>
-                            <span>{{ __('messages.p12.short_description') }}.</span>
-                        </div>
-                    </div>
-                </div> 
+                </div>
+                
+
+                
+
+
+                <div class="row w-100">
+                    
+                </div>
+
+
             </div>
         </div>
 
@@ -231,7 +266,7 @@
             </div>
 
             <div class="p-4 pt-0">
-                    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6202.41542244911!2d61.85234657513251!3d37.6541451602106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDM5JzE4LjYiTiA2McKwNTEnMDguNCJF!5e1!3m2!1sen!2s!4v1618410986784!5m2!1sen!2s" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
 
