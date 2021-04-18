@@ -119,6 +119,12 @@ body{
 
 .card-img-top {
     transition: .2s;
+    width: 100%;
+    
+}
+
+.all-products{
+    max-width: 350px;
 }
 
 .product-details-border{
